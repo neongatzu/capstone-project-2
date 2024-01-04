@@ -1,0 +1,40 @@
+.gradient-background {
+    background: linear-gradient(300deg, #392467, #5D3587, #A367B1, #FFD1E3);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;  
+    
+  }
+  .intro{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 0px;
+
+  }
+  *{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+  }
+  .skills{
+    text-align: center;
+    font-weight: bold;
+  }
+  .card{
+    background-color: #A367B1;
+    color: white;
+  }
+  
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
