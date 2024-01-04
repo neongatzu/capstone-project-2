@@ -2,6 +2,7 @@
     background: linear-gradient(300deg, #392467, #5D3587, #A367B1, #FFD1E3);
     background-size: 180% 180%;
     animation: gradient-animation 18s ease infinite;  
+    height: 100%;
     
   }
   .intro{
@@ -25,6 +26,22 @@
     background-color: #A367B1;
     color: white;
   }
+  .carousel {
+    width:800px;
+    height:400px; 
+  }
+  .carousel-project{
+    display: flex;
+    justify-content: center;
+  }
+  .carousel-caption{
+    background-color: #392467;
+    color: white;
+    font-weight: bold;
+    opacity: 90%;
+  }
+  
+  
   
   
   @keyframes gradient-animation {
